@@ -1,0 +1,84 @@
+me: org.apache.geronimo.runtime.v21&#xA;Bundle-Version: 2.1.0&#xA;
+          </instruction>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.geronimo.st.v11.core' version='2.2.0' singleton='false'>
+      <update id='org.apache.geronimo.st.v11.core' range='[0.0.0,2.2.0)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.geronimo.st.v11.core' version='2.2.0'/>
+        <provided namespace='osgi.bundle' name='org.apache.geronimo.st.v11.core' version='2.2.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.geronimo.st.v11.core' version='2.2.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.geronimo.st.v11.core&#xA;Bundle-Version: 2.2.0&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.geronimo.st.core' version='2.1.5' singleton='false'>
+      <update id='org.apache.geronimo.st.core' range='[0.0.0,2.1.5)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.geronimo.st.core' version='2.1.5'/>
+        <provided namespace='osgi.bundle' name='org.apache.geronimo.st.core' version='2.1.5'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.geronimo.st.core' version='2.1.5'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.geronimo.st.core&#xA;Bundle-Version: 2.1.5&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.geronimo.st.v20.core' version='2.1.5' singleton='false'>
+      <update id='org.apache.geronimo.st.v20.core' range='[0.0.0,2.1.5)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.geronimo.st.v20.core' version='2.1.5'/>
+        <provided namespace='osgi.bundle' name='org.apache.geronimo.st.v20.core' version='2.1.5'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.geronimo.st.v20.core' version='2.1.5'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.geronimo.st.v20.core&#xA;Bundle-Version: 2.1.5&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.geronimo.v20.feature.feature.group' version='2.0.0' singleton='false'>
+      <update id='org.apache.geronimo.v20.feature.feature.group' range='[0.0.0,2.0.0)' severity='0'/>
+      <properties size='7'>
+        <property name='org.eclipse.equinox.p2.name' value='Geronimo v2.0 Server Adapter'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://geronimo.apache.org/devtools'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Apache Software Foundation'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.description' value='This feature provides the WTP Server Adapter and additional development tools for Apache Geronimo.'/>
+        <property name='df_LT.license' value='Apache License &#xA;Version 2.0, January 2004 &#xA;http://www.apache.org/licenses/ &#xA;&#xA;TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION &#xA;&#xA;1. Definitions. &#xA;&#xA;&quot;License&quot; shall mean the terms and conditions for use, reproduction,&#xA;and distribution as defined by Sections 1 through 9 of this document.&#xA;&#xA;&quot;Licensor&quot; shall mean the copyright owner or entity authorized by&#xA;the copyright owner that is granting the License.&#xA;&#xA;&quot;Legal Entity&quot; shall mean the union of the acting entity and all&#xA;other entities that control, are controlled by, or are under common&#xA;control with that entity. For the purposes of this definition,&#xA;&quot;control&quot; means (i) the power, direct or indirect, to cause the&#xA;direction or management of such entity, whether by contract or&#xA;otherwise, or (ii) ownership of fifty percent (50%) or more of the&#xA;outstanding shares, or (iii) beneficial ownership of such entity.&#xA;&#xA;&quot;You&quot; (or &quot;Your&quot;) shall mean an individual or Legal Entity&#xA;exercising permissions granted by this License.&#xA;&#xA;&quot;Source&quot; form shall mean the preferred form for making modifications,&#xA;including but not limited to software source code, documentation&#xA;source, and configuration files.&#xA;&#xA;&quot;Object&quot; form shall mean any form resulting from mechanical&#xA;transformation or translation of a Source form, including but&#xA;not limited to compiled object code, generated documentation,&#xA;and conversions to other media types.&#xA;&#xA;&quot;Work&quot; shall mean the work of authorship, whether in Source or&#xA;Object form, made available under the License, as indicated by a&#xA;copyright notice that is included in or attached to the work&#xA;(an example is provided in the Appendix below).&#xA;&#xA;&quot;Derivative Works&quot; shall mean any work, whether in Source or Object&#xA;form, that is based on (or derived from) the Work and for which the&#xA;editorial revisions, annotations, elaborations, or other modifications&#xA;represent, as a whole, an original work of authorship. For the purposes&#xA;of this License, Derivative Works shall not include works that remain&#xA;separable from, or merely link (or bind by name) to the interfaces of,&#xA;the Work and Derivative Works thereof.&#xA;&#xA;&quot;Contribution&quot; shall mean any work of authorship, including&#xA;the original version of the Work and any modifications or additions&#xA;to that Work or Derivative Works thereof, that is intentionally&#xA;submitted to Licensor for inclusion in the Work by the copyright owner&#xA;or by an individual or Legal Entity authorized to submit on behalf of&#xA;the copyright owner. For the purposes of this definition, &quot;submitted&quot;&#xA;means any form of electronic, verbal, or written communication sent&#xA;to the Licensor or its representatives, including but not limited to&#xA;communication on electronic mailing lists, source code control systems,&#xA;and issue tracking systems that are managed by, or on behalf of, the&#xA;Licensor for the purpose of discussing and improving the Work, but&#xA;excluding communication that is conspicuously marked or otherwise&#xA;designated in writing by the copyright owner as &quot;Not a Contribution.&quot;&#xA;&#xA;&quot;Contributor&quot; shall mean Licensor and any individual or Legal Entity&#xA;on behalf of whom a Contribution has been received by Licensor and&#xA;subsequently incorporated within the Work.&#xA;&#xA;2. Grant of Copyright License. Subject to the terms and conditions of&#xA;this License, each Contributor hereby grants to You a perpetual,&#xA;worldwide, non-exclusive, no-charge, royalty-free, irrevocable&#xA;copyright license to reproduce, prepare Derivative Works of,&#xA;publicly display, publicly perform, sublicense, and distribute the&#xA;Work and such Derivative Works in Source or Object form.&#xA;&#xA;3. Grant of Patent License. Subject to the terms and conditions of&#xA;this License, each Contributor hereby grants to You a perpetual,&#xA;worldwide, non-exclusive, no-charge, royalty-free, irrevocable&#xA;(except as stated in this section) patent license to make, have made,&#xA;use, offer to sell, sell, import, and otherwise transfer the Work,&#xA;where such license applies only to those patent claims licensable&#xA;by such Contributor that are necessarily infringed by their&#xA;Contribution(s) alone or by combination of their Contribution(s)&#xA;with the Work to which such Contribution(s) was submitted. If You&#xA;institute patent litigation against any entity (including a&#xA;cross-claim or counterclaim in a lawsuit) alleging that the Work&#xA;or a Contribution incorporated within the Work constitutes direct&#xA;or contributory patent infringement, then any patent licenses&#xA;granted to You under this License for that Work shall terminate&#xA;as of the date such litigation is filed.&#xA;&#xA;4. Redistribution. You may reproduce and distribute copies of the&#xA;Work or Derivative Works thereof in any medium, with or without&#xA;modifications, and in Source or Object form, provided that You&#xA;meet the following conditions:&#xA;&#xA;(a) You must give any other recipients of the Work or&#xA;Derivative Works a copy of this License; and&#xA;&#xA;(b) You must cause any modified files to carry prominent notices&#xA;stating that You changed the files; and&#xA;&#xA;(c) You must retain, in the Source form of any Derivative Works&#xA;that You distribute, all copyright, patent, trademark, and&#xA;attribution notices from the Source form of the Work,&#xA;excluding those notices that do not pertain to any part of&#xA;the Derivative Works; and&#xA;&#xA;(d) If the Work includes a &quot;NOTICE&quot; text file as part of its&#xA;distribution, then any Derivative Works that You distribute must&#xA;include a re
